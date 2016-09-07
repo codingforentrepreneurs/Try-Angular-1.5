@@ -7,10 +7,27 @@
     <title>Try Angular 1.5</title>
     <!-- <script src='./js/angular.min.js' ></script> -->
     <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js'></script>
+
+    <style>
+    .new-class {
+        font-size: 72px;
+    }
+    .other-class {
+        font-size: 32px;
+    }
+    .new-class2 {
+        font-size: 120px;
+    }
+    </style>
   </head>
   <body>
-    <h1>Hello, {{ abc }}!</h1>
-    <input type='text' ng-model='abc' />
-{{ abc }} {{ abc }} {{ abc }} {{ abc }}{{ abc }}{{ abc }}{{ abc }}{{ abc }}{{ abc }}{{ abc }}{{ abc }}{{ abc }}{{ abc }}{{ abc }}{{ abc }}
+    <h1 class='new-class' ng-class="{'other-class': name=='Justin', 'new-class2': font==120}">Hello, 
+            <span ng-if='name'>{{ name }}</span>
+            <span ng-if='!name'>World</span>
+        !
+    </h1>
+    <input type='text' ng-model='name' />
+
+    <input type='text' ng-model='font' placeholder='font' />
   </body>
 </html>
