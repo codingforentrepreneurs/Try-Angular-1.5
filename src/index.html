@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app>
+<html lang="en" ng-app='try'>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +7,9 @@
     <title>Try Angular 1.5</title>
     <!-- <script src='./js/angular.min.js' ></script> -->
     <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js'></script>
+
+    <script src='./js/app/app.module.js' ></script>
+    <script src='./js/app/app.config.js' ></script>
 
     <style>
     .new-class {
@@ -21,6 +24,7 @@
     </style>
   </head>
   <body>
+
     <h1 class='new-class' ng-class="{'other-class': name=='Justin', 'new-class2': font==120}">Hello, 
             <span ng-if='name'>{{ name }}</span>
             <span ng-if='!name'>World</span>
