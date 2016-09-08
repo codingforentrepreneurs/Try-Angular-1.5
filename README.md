@@ -10,6 +10,7 @@ Thanks for watching!
 
 Team CFE
 
+## [Getting Started Quick Tips](./blob/master/quicktips.md)
 
 ## Lecture Code
 
