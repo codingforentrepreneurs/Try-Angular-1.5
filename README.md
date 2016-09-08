@@ -1,4 +1,4 @@
-![Try AngularJS 1.5 Logo](https://cfe-static.s3.amazonaws.com/media/try-django-19/images/try_django_19.png)
+![Try AngularJS 1.5 Logo](https://cfe-static.s3.amazonaws.com/media/try-angularjs-15/images/try_angular_15.png)
 
 # Try AngularJS 1.5
 
