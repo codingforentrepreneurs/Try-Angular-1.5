@@ -1,7 +1,7 @@
-Quick Tips for Try Angular 1.5
+# Quick Tips for Try Angular 1.5
 
 
-## Emulate a Hosting Server
+### Emulate a Hosting Server
 
 **Command** `python -m SimpleHTTPServer`
 
