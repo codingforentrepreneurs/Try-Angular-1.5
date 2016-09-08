@@ -11,6 +11,9 @@
     <script src='./js/app/app.module.js' ></script>
     <script src='./js/app/app.config.js' ></script>
 
+    <script src='./js/app/blog-list/blog-list.module.js' ></script>
+    <script src='./js/app/blog-list/blog-list.component.js' ></script>
+
     <style>
     .new-class {
         font-size: 72px;
@@ -25,13 +28,13 @@
   </head>
   <body>
 
-    <h1 class='new-class' ng-class="{'other-class': name=='Justin', 'new-class2': font==120}">Hello, 
-            <span ng-if='name'>{{ name }}</span>
-            <span ng-if='!name'>World</span>
-        !
-    </h1>
-    <input type='text' ng-model='name' />
-
-    <input type='text' ng-model='font' placeholder='font' />
+    <blog-list></blog-list>
+    
   </body>
 </html>
+
+
+
+
+
+
