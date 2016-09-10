@@ -28,6 +28,8 @@ Team CFE
 
 [12 - A Controller & Component](../../tree/53066f70a029e16421f6213236f355130f20004c)
 
+[13 - External Templates](../../tree/f20a08481c9a24df518ce640bf9368136b7c3137)
 
+[14 - Looping in a Template with ng-repeat](../../tree/f5128b3307d772b841a7cd1cb5cdbebb102fa352)
 
 _More coming soon_
