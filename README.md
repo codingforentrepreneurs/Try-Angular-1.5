@@ -32,4 +32,14 @@ Team CFE
 
 [14 - Looping in a Template with ng-repeat](../../tree/f5128b3307d772b841a7cd1cb5cdbebb102fa352)
 
+[15 - URL Routing Part 1](../../tree/a511039204c90e6f5d015ab51708362aea64bfb2)
+
+[16 - URL Routing Part 2](../../tree/4feacb45d8b32632dc88ae0fac94f5647b34114e)
+
+[17 - URL Routing Part 3 - RouteParams](../../tree/4a29eab768acc0af2a2bf75c404cb2602a882fcc)
+
+[18 - Detail View with Parameters](../../tree/eca0b53cfc601938d9be1ee5d65004029e6ec882)
+
+
+
 _More coming soon_
