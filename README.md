@@ -40,6 +40,6 @@ Team CFE
 
 [18 - Detail View with Parameters](../../tree/eca0b53cfc601938d9be1ee5d65004029e6ec882)
 
-
+[19 - ForEach Loop in Angular JS Files](../../tree/0977ec22dbac8182a4bc05248e1f4ad560ab8ab1)
 
 _More coming soon_
