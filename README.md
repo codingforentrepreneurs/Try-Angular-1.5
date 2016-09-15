@@ -44,5 +44,6 @@ Team CFE
 
 [20 - HTTP Request in Angular - $http](../../tree/216c0e48737f675282ba9da772dd109b2835d620)
 
+[21 - ng-resource for mapping to a Restful API](../../tree/3b1b2c999240c8e60f854d3526e97f85e2730154)
 
 _More coming soon_
