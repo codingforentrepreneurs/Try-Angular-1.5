@@ -17,12 +17,15 @@ angular.module('try').
               when("/about", {
                 templateUrl: "/templates/about.html"
               }).
-              when("/blog/1", {
-                  template: "<h1>Hi</h1>"
-              }).
-              when("/blog/2", {
+              when("/blog/:id", {
                   template: "<blog-list></blog-list>"
               }).
+              when("/blog/:id/:abc", {
+                  template: "<blog-list></blog-list>"
+              }).
+              // when("/blog/2", {
+              //     template: "<blog-list></blog-list>"
+              // }).
               otherwise({
                   template: "Not Found"
               })
