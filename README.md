@@ -42,4 +42,7 @@ Team CFE
 
 [19 - ForEach Loop in Angular JS Files](../../tree/0977ec22dbac8182a4bc05248e1f4ad560ab8ab1)
 
+[20 - HTTP Request in Angular - $http](../../tree/216c0e48737f675282ba9da772dd109b2835d620)
+
+
 _More coming soon_
