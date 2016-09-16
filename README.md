@@ -47,4 +47,7 @@ Team CFE
 [21 - ng-resource for mapping to a Restful API](../../tree/3b1b2c999240c8e60f854d3526e97f85e2730154)
 
 [22 - Custon Angular Directive for Confirmed Click](../../tree/339c463731206a67f92c3f5b92a49d1c2c17e1ce)
+
+[23 - ngClick & confirmClick Directives](../../tree/1b0db8e6a2082ebbe729e83396291ec23ad66e64)
+
 _More coming soon_
