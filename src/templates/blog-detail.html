@@ -3,3 +3,20 @@
 <p> {{ post.description }}</p>
 
 <p> {{ post.publishDate }}</p>
+
+<h3>Comments</h3>
+<ul>
+    <li>
+        <input type='text' ng-model='query' placeholder='Filter Comments' />
+    </li>
+    <li ng-repeat='comment in post.comments | filter: query'>
+            {{ comment.text }}
+    </li>
+</ul>
+
+<p style='color:red;' ng-if='reply.text'>Preview: {{ reply.text }}</p>
+<form ng-submit='addReply()'>
+    <input type='hidden' ng-model='reply.id'>
+    <textarea ng-model='reply.text'></textarea>
+    <input type='submit'/>
+</form>
