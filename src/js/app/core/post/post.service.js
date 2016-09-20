@@ -9,7 +9,7 @@ angular.
                     method: "GET",
                     params: {},
                     isArray: true,
-                    cache: true,
+                    cache: false,
                     // transformResponse
                     // interceptor
                 },
@@ -17,7 +17,7 @@ angular.
                     method: "GET",
                     // params: {"id": @id},
                     isArray: true,
-                    cache: true,
+                    cache: false,
                 }
             })
 
