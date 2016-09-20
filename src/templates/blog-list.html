@@ -1,10 +1,25 @@
 <h1>Blog List</h1>
-<ul ng-if='items.length > 0'>
+<!-- <ul ng-if='items.length > 0'>
     <li ng-repeat='post in items'>
             <a ng-href='#' confirm-click='Are you ready?' confirmed-click='goToItem(post)'/>{{ post.title }} {{ post.publishDate }}</a>
-            <!-- <a href='#' ng-click='goToItem(post)'/>{{ post.title }} {{ post.publishDate }}</a> -->
-           <!--   <confirm-click message='Are you positive?' post='item' eq='10+100'></confirm-click> -->
+         <a href='#' ng-click='goToItem(post)'/>{{ post.title }} {{ post.publishDate }}</a> 
+            <confirm-click message='Are you positive?' post='item' eq='10+100'></confirm-click> 
     </li>
 </ul>
-
+ -->
 <span ng-if='items.length == 0'>Posts coming soon</span>
+
+
+
+<div class="row">
+  <div class="col-sm-6 col-md-4" ng-repeat='post in items'>
+    <div class="thumbnail">
+      <img src="..." alt="...">
+      <div class="caption">
+        <h3>{{ post.title }}</h3>
+        <p>{{ post.text }} {{ post.publishDate }}</p>
+        <p><a ng-href='#' class='btn btn-primary' confirm-click='Are you ready?' confirmed-click='goToItem(post)'/>View</a></p>
+      </div>
+    </div>
+  </div>
+</div>
