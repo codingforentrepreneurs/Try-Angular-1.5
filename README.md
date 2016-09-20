@@ -52,4 +52,12 @@ Team CFE
 
 [24 - Forms and ngSubmit](../../tree/e8eb1f416ebbfbcca676f60e9aa716ebc0ac3179)
 
+[25 - Confirm Comment Delete](../../tree/a25eb1cfe55c7ee061645cde05a35edb1cc476e4)
+
+[26 - Bootstrap & CSS](../../tree/8b3d1b482160d00e5346624d90c6d36de38cecf4)
+
+[27 - Angular Columns](../../tree/ef811d02ff3109cad2261605a2a2d04a4118bff8)
+
+
+
 _More coming soon_
