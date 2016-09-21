@@ -2,6 +2,7 @@
 
 angular.module('try', [
     // external
+    'angularUtils.directives.dirPagination',
     'ngResource',
     'ngRoute',
 

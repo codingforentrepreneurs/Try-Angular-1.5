@@ -12,10 +12,21 @@
     </li>
 </ul>
  -->
+
+<li dir-paginate='item in items | filter: query | itemsPerPage: 5 as postItems' pagination-id="sub-content">
+  {{ item.title }}
+</li>
+
+<span ng-if='postItems.length == 0'>No Sub Items Found</span>
+
+
+<dir-pagination-controls ng-hide='query.length > 0' pagination-id="sub-content"></dir-pagination-controls>
+
+
 <span ng-if='items.length == 0'>Posts coming soon</span>
 
-<div class="row" ng-repeat='items in colItems'>
-   <div class="{{ cssClass }}" ng-repeat='post in items | filter: query'>
+<div class="row" dir-paginate='items in colItems | filter: query | itemsPerPage: 4 as mainItems' pagination-id="main-content">
+   <div class="{{ cssClass }}" ng-repeat='post in items'>
       <div class="thumbnail">
         <img src="..." alt="...">
         <div class="caption">
@@ -27,6 +38,9 @@
     </div>
 </div>
 
+<span ng-if='mainItems.length == 0'>No Main Items Found</span>
+
+<dir-pagination-controls ng-hide='query.length > 0' pagination-id="main-content"></dir-pagination-controls>
 
 <!-- <div class="row">
   <div class="col-sm-6 col-md-4" ng-repeat='post in items'>
