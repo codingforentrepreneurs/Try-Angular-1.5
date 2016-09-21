@@ -12,9 +12,16 @@
     </li>
 </ul>
  -->
+<select ng-model='order'>
+  <option value='-publishDate'>Recent</option>
+  <option value='publishDate'>Older</option>
+  <option value='title'>A-Z</option>
+  <option value='-title'>Z-A</option>
+</select>
 
-<li dir-paginate='item in items | filter: query | itemsPerPage: 5 as postItems' pagination-id="sub-content">
-  {{ item.title }}
+
+<li dir-paginate='item in items | orderBy: order | filter: query | itemsPerPage: 5 as postItems' pagination-id="sub-content">
+  {{ item.title }} {{ item.publishDate }}
 </li>
 
 <span ng-if='postItems.length == 0'>No Sub Items Found</span>
@@ -28,7 +35,7 @@
 <div class="row" dir-paginate='items in colItems | filter: query | itemsPerPage: 4 as mainItems' pagination-id="main-content">
    <div class="{{ cssClass }}" ng-repeat='post in items'>
       <div class="thumbnail">
-        <img src="..." alt="...">
+        <img ng-src="{{ post.image }}" alt="...">
         <div class="caption">
           <h3>{{ post.title }}</h3>
           <p>{{ post.text }} {{ post.publishDate }}</p>
