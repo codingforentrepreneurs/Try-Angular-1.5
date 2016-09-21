@@ -22,7 +22,7 @@ angular.module('blogList').
 
             $scope.loadingQuery = false
             $scope.$watch(function(){
-                console.log($scope.query)
+                // console.log($scope.query)
                 if($scope.query) {
                     $scope.loadingQuery = true
                     $scope.cssClass = 'col-sm-12'
