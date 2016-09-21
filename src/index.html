@@ -32,6 +32,9 @@
     <script src='/js/app/utils/confirm-click/confirm-click.module.js' ></script>
     <script src='/js/app/utils/confirm-click/confirm-click.directive.js' ></script>
 
+    <script src='/js/app/utils/try-nav/try-nav.module.js' ></script>
+    <script src='/js/app/utils/try-nav/try-nav.directive.js' ></script>
+
 
     <style>
     .new-class {
@@ -46,11 +49,11 @@
     </style>
   </head>
   <body>
-    <nav class='container'>
-            <h1>Us</h1>
-    </nav>
-    <div class='container' ng-view>
+    <div class='container'>
+        <try-nav></try-nav>
+        <div class='col-sm-12' ng-view>
 
+        </div>
     </div>
     
   </body>

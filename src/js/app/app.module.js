@@ -10,4 +10,5 @@ angular.module('try', [
     'blogDetail',
     'blogList',
     'confirmClick',
+    'tryNav',
 ]);
