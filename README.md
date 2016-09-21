@@ -58,6 +58,9 @@ Team CFE
 
 [27 - Angular Columns](../../tree/ef811d02ff3109cad2261605a2a2d04a4118bff8)
 
+[28 - Pagination](../../tree/0a05c29cb144d9f6d6630987af1aa0d8beb7d880)
 
+[29 - Order By & Images](../../tree/49d3dc4d47a5198140ad3d50d67c1884bdac1b44)
 
+[30 - Navigation Directive](../../tree/0128a67684e79e9f6cb8c053273f2684af0bafcc)
 _More coming soon_
