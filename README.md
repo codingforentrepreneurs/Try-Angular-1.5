@@ -63,4 +63,9 @@ Team CFE
 [29 - Order By & Images](../../tree/49d3dc4d47a5198140ad3d50d67c1884bdac1b44)
 
 [30 - Navigation Directive](../../tree/0128a67684e79e9f6cb8c053273f2684af0bafcc)
+
+[31 - UI Bootstrap & Typeahead](../../tree/5e719318e5b03cc556f22adbce5fdc356cd6c026)
+
+[32 - Search Function & Clean Up](../../tree/06c297733bdf3132033e70da51be0c1a22a46b13)
+
 _More coming soon_
