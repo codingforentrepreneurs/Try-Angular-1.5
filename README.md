@@ -2,7 +2,7 @@
 
 # Try AngularJS 1.5
 
-Try AngularJS 1.5 is _coming soon_.
+[Learn AngularJS](https://www.codingforentrepreneurs.com/projects/try-angularjs-15/) in this step-by-step series. The goal is to build something real while discussing the technology behind the code.
 
 Subscribe to our [YouTube Channel](http://joincfe.com/projects)
 
@@ -67,5 +67,3 @@ Team CFE
 [31 - UI Bootstrap & Typeahead](../../tree/5e719318e5b03cc556f22adbce5fdc356cd6c026)
 
 [32 - Search Function & Clean Up](../../tree/06c297733bdf3132033e70da51be0c1a22a46b13)
-
-_More coming soon_
